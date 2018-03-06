@@ -7,12 +7,27 @@ public class Printer {
 
 	// 打印到控制台
 	public static void Print(Object obj) {
-		System.out.println(obj);
+		System.out.print(obj);
 	}
 
 	// 打印到控制台
 	public static void Print() {
+		System.out.print(" ");
+	}
+
+	// 打印到控制台
+	public static void Println(Object obj) {
+		System.out.println(obj);
+	}
+
+	// 打印到控制台
+	public static void Println() {
 		System.out.println();
+	}
+
+	// 打印到控制台
+	public static void PrintFormat(Object obj) {
+		System.out.println(String.format("%4s", obj));
 	}
 
 	// 打印到控制台
